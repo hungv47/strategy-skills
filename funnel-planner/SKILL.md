@@ -4,7 +4,7 @@ description: "This skill should be used when the user asks to 'set targets', 'pl
 license: MIT
 metadata:
   author: hungv47
-  version: "3.1.0"
+  version: "3.2.0"
 ---
 
 # Funnel Planner — Target Setting
@@ -150,7 +150,7 @@ If your funnel has a lead stage, include response time SLA as a target: contact 
 | **Moonshot** | 10x improvement, no plan → work backwards from realistic |
 | **Orphan Target** | Owner is "the team" → assign a person |
 | **Input Trap** | Measuring activities ("publish 4 posts") → measure the output ("organic signups") |
-| **Aspirational math** | Target > 1.5x good-tier benchmark AND no written justification for why you can outperform 80% of companies. If variance > 50% above benchmark, must explain or reduce to 1.3x benchmark. |
+| **Aspirational math** | Target significantly above good-tier benchmark (roughly >1.5x) without written justification for why your situation enables outperformance. The further above benchmark, the stronger the justification needs to be. |
 
 See [references/anti-patterns.md](references/anti-patterns.md) for detailed detection.
 

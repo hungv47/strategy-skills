@@ -4,7 +4,7 @@ description: "Diagnose the problem, break down the issue, build a logic tree, fo
 license: MIT
 metadata:
   author: hungv47
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Problem Analysis

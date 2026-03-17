@@ -1,12 +1,3 @@
----
-name: churn-prevention
-description: "Reduce churn, prevent cancellations, build retention strategy, design cancel flow, dunning sequence, customer health scoring, save offers — churn reduction, retention, cancel flow optimization, involuntary churn, dunning, customer health score, win-back."
-license: MIT
-metadata:
-  author: hungv47
-  version: "1.0.0"
----
-
 # Churn Prevention
 
 *Reference playbook for solution-design. Use when the diagnosed root cause (from problem-analysis) is churn.*

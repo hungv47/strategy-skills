@@ -5,7 +5,6 @@ Structured frameworks: problem diagnosis → solution design → target setting 
 ## Pipeline
 problem-analysis → solution-design → funnel-planner → experiment
 
-
 ## Artifacts
 Skills write to `.agents/`:
 - `.agents/problem-analysis.md`

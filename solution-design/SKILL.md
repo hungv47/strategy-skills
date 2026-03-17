@@ -4,7 +4,7 @@ description: "Brainstorm solutions, generate initiatives, prioritize ideas, rank
 license: MIT
 metadata:
   author: hungv47
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Solution Design

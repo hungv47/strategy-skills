@@ -4,7 +4,7 @@ description: "Design experiments, create A/B tests, validate hypotheses with min
 license: MIT
 metadata:
   author: hungv47
-  version: "1.1.0"
+  version: "1.2.0"
 ---
 
 # Experiment Design
