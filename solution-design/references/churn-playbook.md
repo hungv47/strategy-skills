@@ -9,7 +9,7 @@ metadata:
 
 # Churn Prevention
 
-*Strategy — Standalone. Diagnoses churn drivers and designs prevention systems for both voluntary and involuntary churn.*
+*Reference playbook for solution-design. Use when the diagnosed root cause (from problem-analysis) is churn.*
 
 **Core Question:** "Why are customers leaving, and what's the minimum intervention to keep the right ones?"
 
@@ -375,5 +375,5 @@ Route top hypotheses to `experiment` for testing. Start with highest-impact, low
 
 ## References
 
-- [references/cancel-flow-templates.md](references/cancel-flow-templates.md) — Email templates for cancel flow and dunning
-- [references/health-score-guide.md](references/health-score-guide.md) — Detailed health score implementation guide
+- [churn-cancel-flow-templates.md](churn-cancel-flow-templates.md) — Email templates for cancel flow and dunning
+- [churn-health-score-guide.md](churn-health-score-guide.md) — Detailed health score implementation guide
