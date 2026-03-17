@@ -13,6 +13,10 @@ metadata:
 
 **Core Question:** "Do the numbers actually work?"
 
+## Philosophy
+
+Improvement factors and benchmarks here are evidence-backed starting points. Actual achievable improvement depends on baseline, team capability, and market context. Use the defaults as sanity checks, not ceilings or floors.
+
 ## Inputs Required
 - Prioritized initiatives from `.agents/solution-design.md` (preferred)
 - OR: A business with metrics that need targets
@@ -91,6 +95,8 @@ For each initiative/metric:
 | Basic optimization done | 10-15% |
 | Mature funnel | 5-10% |
 | Major redesign or fix | 30-50% |
+
+Typical ranges, not guarantees. A team fixing a known broken page may see 100%+ lift; a team optimizing an excellent funnel may see 2-3%. Ground targets in evidence (baseline + realistic improvement), not in this table.
 
 **LTV:CAC sanity check** (for acquisition targets):
 - LTV:CAC should be ≥ 3:1, ideally 5:1

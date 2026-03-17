@@ -13,6 +13,10 @@ metadata:
 
 **Core Question:** "What's the cheapest way to learn if this works?"
 
+## Philosophy
+
+Experimental rigor matters — but the level should match the stakes. Sample size tables assume 95% confidence / 80% power, appropriate for high-stakes decisions. For lower-stakes tests (social creative, email subjects), 90% confidence may suffice. Define acceptable risk upfront.
+
 ## Inputs Required
 - An initiative with hypothesis and target metric (from `.agents/solution-design.md` + `.agents/targets.md`)
 - Baselines from `.agents/targets.md` (required for sample size calculation and lift targets)
@@ -105,6 +109,8 @@ For A/B tests — minimum visitors PER VARIANT:
 | 5% | ~8,000 | ~1,300 |
 | 10% | ~4,000 | ~640 |
 | 25% | ~1,600 | ~260 |
+
+Assumes 95% confidence, 80% power. For exploratory tests, 90% confidence reduces required sample by ~25%. For critical decisions, consider 99%.
 
 **Quick math:** [Your daily traffic] × [test days] ÷ 2 = visitors per variant. Compare against table.
 

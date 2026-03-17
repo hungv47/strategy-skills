@@ -4,7 +4,9 @@ How to determine if you have enough traffic/users to run a meaningful test.
 
 ## Quick Reference Table
 
-Minimum visitors per variant to detect a given relative lift at 95% confidence, 80% power:
+Minimum visitors per variant to detect a given relative lift at 95% confidence, 80% power.
+
+**Confidence level context:** 95% confidence / 80% power is the standard for high-stakes decisions (pricing changes, major redesigns). For lower-stakes exploratory tests (social creative, email subject lines), 90% confidence reduces required sample by ~25% and is often sufficient. For critical, hard-to-reverse decisions, consider 99% confidence — which roughly doubles the required sample. Define acceptable risk before choosing.
 
 | Baseline Rate | 10% Lift | 20% Lift | 50% Lift | 100% Lift |
 |--------------|----------|----------|----------|-----------|
