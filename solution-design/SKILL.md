@@ -149,6 +149,8 @@ For each "Proceed" initiative, confirm:
 
 Resolve any failing checks before moving on — gaps in ownership or metrics cause stalled initiatives.
 
+For "Proceed" initiatives requiring detailed execution plans, see [references/initiative-planning.md](references/initiative-planning.md) — 5-phase planning (Foundation, Strategy, Resources, Success Criteria, Risk Assessment) and proposal validation.
+
 ---
 
 ## Artifact Template
@@ -330,3 +332,4 @@ Run `funnel-planner` to set targets for Restore Paid Targeting and Restore Socia
 - [references/hypothesis-framework.md](references/hypothesis-framework.md) — If/Then/Because templates
 - [references/initiative-types.md](references/initiative-types.md) — Hero vs Support classification
 - [references/ice-scoring-rubric.md](references/ice-scoring-rubric.md) — Detailed scoring calibration with scored examples
+- [references/initiative-planning.md](references/initiative-planning.md) — Detailed execution planning for complex initiatives
