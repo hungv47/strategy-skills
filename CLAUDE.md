@@ -16,3 +16,6 @@ Skills write to `.agents/`:
 All strategy skills can read `.agents/product-context.md` for business context.
 Created by `icp-research` from the communication stack:
 `npx skills add hungv47/comms-skills`
+
+## Recommended Starting Point
+Run `icp-research` (from comms-skills) first to create `.agents/product-context.md` — the canonical cross-stack artifact.

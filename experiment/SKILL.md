@@ -36,13 +36,17 @@ Before delivering, verify:
 ## Chain Position
 Previous: `funnel-planner` | Next: implement winning variant, or re-diagnose with `problem-analysis` if inconclusive
 
+**Re-run triggers:** When prior experiment results become stale (>60 days), when testing a new initiative from solution-design, or when baselines in targets.md are updated.
+
 ---
 
 ## Before Starting
 
 ### Step 0: Product Context
 
-Check for `.agents/product-context.md`. If missing: **INTERVIEW.** Ask the user 8 product questions (what, who, problem, differentiator, proof points, pricing, objections, voice) and save to `.agents/product-context.md`. Or recommend running `icp-research (from hungv47/comms-skills)` to bootstrap it.
+Check for `.agents/product-context.md`. If missing: **Strongly recommended:** run `icp-research` (from `hungv47/comms-skills`) first to create `.agents/product-context.md` — this skill works without it but produces significantly better analysis with it. If the user prefers not to, ask the user 8 product questions (what, who, problem, differentiator, proof points, pricing, objections, voice) and save to `.agents/product-context.md`.
+
+If upstream artifacts' `date` fields are older than 30 days, recommend re-running upstream skills before proceeding — stale baselines invalidate sample size calculations.
 
 ### Required Artifacts
 | Artifact | Source | If Missing |
