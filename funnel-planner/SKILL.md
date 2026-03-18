@@ -34,13 +34,17 @@ Before delivering, verify:
 ## Chain Position
 Previous: `solution-design` | Next: `experiment`
 
+**Re-run triggers:** When baselines shift >20% from target table values, after experiments conclude with new data, or quarterly.
+
 ---
 
 ## Before Starting
 
 ### Step 0: Product Context
 
-Check for `.agents/product-context.md`. If missing: **INTERVIEW.** Ask the user 8 product questions (what, who, problem, differentiator, proof points, pricing, objections, voice) and save to `.agents/product-context.md`. Or recommend running `icp-research (from hungv47/comms-skills)` to bootstrap it.
+Check for `.agents/product-context.md`. If missing: **Strongly recommended:** run `icp-research` (from `hungv47/comms-skills`) first to create `.agents/product-context.md` — this skill works without it but produces significantly better analysis with it. If the user prefers not to, ask the user 8 product questions (what, who, problem, differentiator, proof points, pricing, objections, voice) and save to `.agents/product-context.md`.
+
+If upstream artifacts' `date` fields are older than 30 days, recommend re-running upstream skills before proceeding — stale baselines produce unreliable targets.
 
 ### Required Artifacts
 | Artifact | Source | If Missing |

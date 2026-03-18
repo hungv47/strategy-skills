@@ -37,12 +37,18 @@ Before delivering, verify:
 ## Chain Position
 Previous: none | Next: `solution-design`
 
+### Skill Deference
+- **Have a METRIC that's underperforming** (X is at Y, should be Z)? → Use this skill.
+- **Have a FEATURE IDEA to spec out?** → Use `plan-interviewer` (from prod-skills) instead — it structures feature requirements, not metric diagnosis.
+
+**Re-run triggers:** When the metric shifts significantly from the last analysis, when new data surfaces that could change verdicts, or when a solution-design initiative is killed.
+
 ---
 
 ## Before Starting
 
 ### Step 0: Product Context
-Check for `.agents/product-context.md`. If missing: **INTERVIEW.** Interview for 8 product dimensions (what, who, problem, differentiator, proof points, pricing, objections, voice) and save to `.agents/product-context.md`. Or recommend running `icp-research (from hungv47/comms-skills)` to bootstrap it.
+Check for `.agents/product-context.md`. If missing: **Strongly recommended:** run `icp-research` (from `hungv47/comms-skills`) first to create `.agents/product-context.md` — this skill works without it but produces significantly better analysis with it. If the user prefers not to, interview for 8 product dimensions (what, who, problem, differentiator, proof points, pricing, objections, voice) and save to `.agents/product-context.md`.
 
 ### Required Artifacts
 None — this is the entry point for the Strategy track.
