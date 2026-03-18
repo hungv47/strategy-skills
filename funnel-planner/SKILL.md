@@ -4,7 +4,7 @@ description: "This skill should be invoked when the user needs to set numeric bu
 license: MIT
 metadata:
   author: hungv47
-  version: "3.2.0"
+  version: "3.2.1"
 ---
 
 # Funnel Planner — Target Setting

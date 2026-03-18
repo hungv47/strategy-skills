@@ -5,7 +5,7 @@ argument-hint: "[initiative to test]"
 license: MIT
 metadata:
   author: hungv47
-  version: "1.2.0"
+  version: "1.2.1"
 ---
 
 # Experiment Design
