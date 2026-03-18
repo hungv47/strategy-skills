@@ -1,6 +1,6 @@
 ---
 name: experiment
-description: "Designs minimum viable experiments with clear success/iterate/kill decision rules and sample size validation. Use when the user asks to design experiments, create A/B tests, validate hypotheses, test an idea, or figure out how to validate something — experimentation, A/B testing, test design, decision rules. Works across any domain: landing pages, pricing, onboarding flows, ad creative, feature flags."
+description: "This skill should be invoked when the user has an idea or initiative and wants to validate it before fully committing. Triggers include 'how do I test this', 'should I run an A/B test', 'how do I know if this will work', 'validate this idea', 'design an experiment', 'what's the cheapest way to learn', or 'I'm not sure if this will work' -- even if they just say 'should I try this.' Produces decision rules (success/iterate/kill). Works across landing pages, pricing, onboarding, ads, features. Not for strategic prioritization (use solution-design)."
 argument-hint: "[initiative to test]"
 license: MIT
 metadata:

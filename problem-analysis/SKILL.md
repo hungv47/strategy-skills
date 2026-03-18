@@ -1,6 +1,6 @@
 ---
 name: problem-analysis
-description: "Diagnoses problems through structured MECE decomposition, forms testable hypotheses, and identifies root causes with evidence. Use when the user asks to diagnose a problem, break down an issue, build a logic tree, form hypotheses, test against evidence, or find a root cause — structured problem diagnosis, MECE decomposition, hypothesis development, root cause analysis. Works across any domain: marketing, product, engineering, operations, finance, HR."
+description: "This skill should be invoked when the user faces a problem they don't fully understand and needs structured diagnosis. Triggers include 'why is this happening', 'something is wrong', 'I can't figure out why...', 'diagnose this', 'what's the root cause', 'help me think through this problem', or 'break down this issue' -- even if they just describe symptoms without asking for analysis. Works across any domain: marketing, product, engineering, operations. Not for code refactoring (use code-cleanup) or brainstorming solutions (use solution-design)."
 license: MIT
 metadata:
   author: hungv47

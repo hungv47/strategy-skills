@@ -1,6 +1,6 @@
 ---
 name: solution-design
-description: "Brainstorms targeted solutions anchored to root causes and ranks them with evidence-backed ICE scoring. Use when the user asks to brainstorm solutions, generate initiatives, prioritize ideas, rank by impact, decide what to try, or determine what to do first — solution ideation, initiative brainstorming, ICE scoring, evidence-backed ranking. Works across any domain: growth levers, product fixes, operational improvements, cost reduction."
+description: "This skill should be invoked when the user has identified a problem or goal and needs to brainstorm and prioritize solutions. Triggers include 'what should I do about this', 'give me options', 'how do I fix this' (strategic, not code), 'what's the highest-impact move', 'prioritize my initiatives', or 'what should I try first' -- even if they just say 'I know the problem, now what.' Not for engineering task lists (use task-breakdown) or diagnosing what the problem is (use problem-analysis)."
 license: MIT
 metadata:
   author: hungv47

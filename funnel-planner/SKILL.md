@@ -1,6 +1,6 @@
 ---
 name: funnel-planner
-description: "This skill should be used when the user asks to 'set targets', 'plan a funnel', 'create OKRs', 'benchmark metrics', or mentions target setting, revenue targets, conversion funnels, SaaS metrics, unit economics, or operational goals. Works across any domain: SaaS, e-commerce, B2B, marketplace."
+description: "This skill should be invoked when the user needs to set numeric targets, model a funnel, or validate whether the math works for a business goal. Triggers include 'set targets', 'plan a funnel', 'create OKRs', 'how many users do I need', 'will the numbers work', 'what conversion rate do I need', or 'revenue targets' -- even if they just say 'can we hit $X with our current funnel.' Works across SaaS, e-commerce, B2B, marketplace. Not for mapping content to KPIs (use attribution)."
 license: MIT
 metadata:
   author: hungv47
