@@ -1,6 +1,6 @@
 ---
 name: solution-design
-description: "This skill should be invoked when the user knows the problem or goal and needs to brainstorm and prioritize solutions. Triggers include 'what should I do about this', 'give me options', 'I need a strategy', 'how do I get more customers', 'what should I build next', 'should we pivot', 'what's the highest-impact move', 'what are my options', 'how do we grow', 'prioritize my initiatives', or 'what should I try first' -- even if they just say 'I know the problem, now what' or state a goal and need a path to hit it. Not for engineering task lists (use task-breakdown), code fixes, or diagnosing what the problem is (use problem-analysis)."
+description: "This skill should be invoked when the user knows the problem or goal and needs to brainstorm and prioritize solutions. Triggers include 'what should I do about this', 'give me options', 'I need a strategy', 'how do I get more customers', 'how do I compete with [competitor]', 'what should I build next' (choosing between options, not specifying a vague idea), 'should we pivot', 'what's the highest-impact move', 'what are my options', 'how do we grow', 'prioritize my initiatives', or 'what should I try first' -- even if they just say 'I know the problem, now what' or state a goal and need a path to hit it. Not for engineering task lists (use task-breakdown), code fixes, diagnosing what the problem is (use problem-analysis), setting numeric targets (use funnel-planner), or designing tests to validate ideas (use experiment)."
 license: MIT
 metadata:
   author: hungv47
