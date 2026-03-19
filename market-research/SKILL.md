@@ -102,7 +102,7 @@ All 5 answers are necessary before proceeding — without scope, research sprawl
 |---------|-------|-------------|-------------|
 | Market Trends | 2-3 trends, skip narrative | 3-5 trends + narrative | 5+ trends + narrative |
 | Market Sizing | Skip | Optional (SAM estimate) | Required (TAM/SAM/SOM) |
-| Feature Comparison | Top 5 features | 5-8 features | 8+ features + table stakes/differentiator labels |
+| Feature Comparison | Top 5 features + type labels | 5-8 features + type labels | 8+ features + type labels |
 | Pricing | Entry price + model only | Full pricing table | Full table + hidden costs |
 | Positioning Map | Skip | Include | Include + adjacent entrants |
 | Community & Mindshare | Skip | Top 3 competitors | All competitors |
@@ -218,10 +218,10 @@ Ignoring adjacent competitors is the most common blind spot — the biggest comp
 
 Include "Your Product" column only if product exists (from product-context.md or product-description.md). Omit for greenfield / new market research.
 
-| Capability | [Your Product] | Competitor A | Competitor B | Competitor C |
-|-----------|---------------|-------------|-------------|-------------|
-| [Feature 1] | ✅/❌/🟡 | ✅/❌/🟡 | ✅/❌/🟡 | ✅/❌/🟡 |
-| [Feature 2] | ... | ... | ... | ... |
+| Capability | Type | [Your Product] | Competitor A | Competitor B | Competitor C |
+|-----------|------|---------------|-------------|-------------|-------------|
+| [Feature 1] | Stakes/Diff | ✅/❌/🟡 | ✅/❌/🟡 | ✅/❌/🟡 | ✅/❌/🟡 |
+| [Feature 2] | Stakes/Diff | ... | ... | ... | ... |
 
 Legend: ✅ = Full support, 🟡 = Partial/limited, ❌ = Not available
 
@@ -285,9 +285,9 @@ Review all research and identify gaps across four dimensions:
 #### 1. Underserved Segments
 Who is poorly served by existing solutions?
 
-| Segment | Current Options | Why Underserved | Evidence | Demand Signal |
-|---------|----------------|----------------|----------|--------------|
-| [Segment] | [What they use now] | [Why it's inadequate] | [Source] | [How you know they want better] |
+| Segment | Current Options | Why Underserved | Demand Signal |
+|---------|----------------|----------------|--------------|
+| [Segment] | [What they use now] | [Why it's inadequate] | [Source + how you know they want better] |
 
 #### 2. Feature Gaps
 What capabilities do users need that no one (or few) provide well?
@@ -299,9 +299,9 @@ What capabilities do users need that no one (or few) provide well?
 #### 3. Emerging Trends Not Yet Addressed
 What market shifts are creating new needs that incumbents haven't adapted to?
 
-| Trend | Market Impact | Incumbent Response | Opportunity Window | Evidence |
-|-------|-------------|-------------------|-------------------|----------|
-| [Trend] | [How it changes the market] | [How current players are (not) responding] | [Estimated timeframe] | [Source] |
+| Trend | Incumbent Response | Opportunity Window | Evidence |
+|-------|-------------------|-------------------|----------|
+| [Trend] | [How current players are (not) responding] | [Estimated timeframe] | [Source] |
 
 #### 4. Positioning White Space
 Where on the positioning map is there room?
@@ -538,8 +538,8 @@ status: draft
 
 ### Overview
 
-| Competitor | Founded | Funding | Team Size | Target Segment | Positioning | Threat |
-|-----------|---------|---------|-----------|---------------|-------------|--------|
+| Competitor | Founded | Funding/Revenue | Team Size | Target Segment | Positioning | Threat |
+|-----------|---------|----------------|-----------|---------------|-------------|--------|
 | CodeRabbit | 2023 | $3M seed | ~20 | Mid-market dev teams | "AI-first code reviewer" — speed + context | Critical |
 | Sourcery | 2018 | $5M Series A | ~15 | Individual devs + teams | "Instant code improvement" — refactoring focus | Medium |
 | Codacy | 2012 | $8M total | ~50 | Enterprise | "Automated code quality" — traditional + AI layer | High |
