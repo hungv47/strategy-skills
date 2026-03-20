@@ -43,11 +43,11 @@ prod:     plan-interviewer → system-architecture → task-breakdown
           code-cleanup (standalone)    technical-writer (standalone)
 ```
 
-`product-description` or `icp-research` creates `.agents/product-context.md`, consumed by 12+ skills across all stacks.
+`icp-research` (from comms-skills) creates `.agents/product-context.md`, consumed by 12+ skills across all stacks.
 
 ## Cross-Stack Workflow
 
-All strategy skills can read `.agents/product-context.md`, created by `product-description` or `icp-research` from [comms-skills](https://github.com/hungv47/comms-skills).
+All strategy skills can read `.agents/product-context.md`, created by `icp-research` from [comms-skills](https://github.com/hungv47/comms-skills).
 
 ## Usage
 
