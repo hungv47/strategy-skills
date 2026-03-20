@@ -98,7 +98,7 @@ Define specific numeric thresholds — vague thresholds cause endless "let's giv
 | Situation | Decision | Action |
 |-----------|----------|--------|
 | Primary succeeds, guardrails hold | **Success** | Scale as planned |
-| Primary succeeds, guardrail breached slightly (<20% degradation) | **Conditional Success** | Reduce variant scope (e.g., show to 50% instead of 100%), rerun 7 days. If guardrail recovers and primary holds, scale. |
+| Primary succeeds, guardrail breached slightly (≤20% degradation) | **Conditional Success** | Reduce variant scope (e.g., show to 50% instead of 100%), rerun 7 days. If guardrail recovers and primary holds, scale. |
 | Primary succeeds, guardrail breached severely (>20% degradation) | **Iterate** | The approach works but has side effects. Change the implementation to protect the guardrail, then retest. |
 | Primary succeeds, guardrail breach is inherent to approach | **Kill** | The primary gain isn't worth the guardrail cost. Archive why and try a different approach via `solution-design`. |
 
@@ -322,5 +322,6 @@ When an experiment concludes, follow the appropriate path:
 
 ## References
 
-- [references/experiment-templates.md](references/experiment-templates.md) — Templates for landing page, email, ad creative, feature flag tests
-- [references/sample-size-guide.md](references/sample-size-guide.md) — Full sample size tables and common mistakes
+- [references/experiment-templates.md](references/experiment-templates.md) -- Templates for landing page, email, ad creative, feature flag tests
+- [references/sample-size-guide.md](references/sample-size-guide.md) -- Full sample size tables and common mistakes
+- [references/common-mistakes.md](references/common-mistakes.md) -- Experiment mistakes by phase (pre-launch, during, post-test) with detection signals and fixes

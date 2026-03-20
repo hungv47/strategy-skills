@@ -53,7 +53,7 @@ Previous: none | Next: `solution-design`, `icp-research`
 ## Before Starting
 
 ### Step 0: Product Context
-Check for `.agents/product-context.md`. If missing: **Strongly recommended:** run `product-description` or `icp-research` (from `hungv47/comms-skills`) first — both create `.agents/product-context.md`, and `product-description` also produces `.agents/mkt/product-description.md` (deep product intelligence with features, positioning, pricing that directly feeds competitor comparison). This skill works without them but produces significantly better analysis with product context. If the user prefers not to, interview for the product's category, target market, and key differentiator at minimum.
+Check for `.agents/product-context.md`. If missing: **Strongly recommended:** run `icp-research` (from `hungv47/comms-skills`) first to create `.agents/product-context.md`. This skill works without it but produces significantly better analysis with product context. If the user prefers not to, interview for the product's category, target market, and key differentiator at minimum.
 
 **If product-context.md exists**, extract before proceeding:
 - **Product category** → determines which competitors to include and which features to compare
@@ -61,16 +61,13 @@ Check for `.agents/product-context.md`. If missing: **Strongly recommended:** ru
 - **Pricing model** → frames pricing comparison dimensions
 - **Target segment** → filters competitors by segment overlap (direct vs. adjacent)
 
-**If product-description.md exists**, also extract: feature list (for feature comparison "Your Product" column), competitive positioning claims (to verify against research), and pricing details (for pricing table).
-
 ### Required Artifacts
 None — this is an entry point for the Strategy track.
 
 ### Optional Artifacts
 | Artifact | Source | Benefit |
 |----------|--------|---------|
-| `product-context.md` | product-description or icp-research (from hungv47/comms-skills) | Product context for better competitor selection and gap identification |
-| `product-description.md` | product-description (from hungv47/comms-skills) | Deep product intelligence (features, positioning, pricing) sharpens competitor comparison |
+| `product-context.md` | icp-research (from hungv47/comms-skills) | Product context for better competitor selection and gap identification |
 | `problem-analysis.md` | problem-analysis | Known root causes focus competitive analysis on relevant dimensions |
 
 ---
@@ -217,7 +214,7 @@ Ignoring adjacent competitors is the most common blind spot — the biggest comp
 
 #### Feature Comparison Matrix
 
-Include "Your Product" column only if product exists (from product-context.md or product-description.md). Omit for greenfield / new market research.
+Include "Your Product" column only if product exists (from product-context.md). Omit for greenfield / new market research.
 
 | Capability | Type | [Your Product] | Competitor A | Competitor B | Competitor C |
 |-----------|------|---------------|-------------|-------------|-------------|
