@@ -120,6 +120,24 @@ Unexplained (~Z%): [Description of what's unknown].
 Next step: [What data to gather, from where, owned by whom.]
 ```
 
+### 3-Strikes Escalation
+
+If 3 consecutive hypotheses are all Rejected and the remaining evidence is insufficient to form new hypotheses, **stop and escalate**. Do not force a root cause from weak evidence.
+
+In this case, your Root Cause Statement should be:
+```
+Root cause cannot be determined with available data.
+
+Hypotheses tested and rejected:
+1. [Hypothesis 1] — Rejected because [evidence]
+2. [Hypothesis 2] — Rejected because [evidence]
+3. [Hypothesis 3] — Rejected because [evidence]
+
+Recommended next step: [Gather specific new data / re-run with different framing / escalate to domain expert]
+```
+
+This is a valid outcome. Three rejected hypotheses with no Confirmed or Inconclusive results means the problem's root cause is outside the initial hypothesis space. The correct action is to gather new data or reframe the problem, not to weaken evidence standards.
+
 ### Routing Logic
 
 | Situation | Route To |
@@ -128,6 +146,7 @@ Next step: [What data to gather, from where, owned by whom.]
 | High-impact Inconclusive (>50% gap) remains | **Do not proceed** — gather specified data, then re-run verdict |
 | Medium-impact Inconclusive (10-50%) | Proceed to `solution-design` with risk noted |
 | Multiple root causes of different sizes | Address largest first — it is the highest-leverage fix |
+| 3+ hypotheses Rejected, none Confirmed/Inconclusive | **Escalate** — problem is outside hypothesis space, needs reframing |
 
 ### Evidence Evaluation Technique
 

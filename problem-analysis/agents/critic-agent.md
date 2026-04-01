@@ -115,6 +115,7 @@ These do not trigger a FAIL by themselves, but flag them in Observations:
 - **No premature verdicts** — "Confirmed" based on one loosely supportive data point
 - **No unfalsifiable hypotheses** — Every hypothesis must define what rejection looks like
 - **No correlation-as-causation** — Timeline coincidence is not proof of mechanism
+- **3-strikes escalation** — If 3+ hypotheses were Rejected with none Confirmed or Inconclusive, verify the verdict-agent escalated properly (root cause statement says "cannot be determined," recommends reframing or new data). If the verdict-agent forced a root cause from weak evidence instead of escalating, FAIL with re-dispatch to verdict-agent.
 
 ### Failure Routing
 
