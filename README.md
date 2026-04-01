@@ -5,7 +5,7 @@ Structured frameworks for market research, problem diagnosis, solution design, t
 ## Installation
 
 ```bash
-npx skills add hungv47/strategy-skills
+npx skills add hungv47/research-skills
 ```
 
 ## Skills
@@ -43,11 +43,11 @@ prod:     plan-interviewer → system-architecture → task-breakdown
           code-cleanup (standalone)    technical-writer (standalone)
 ```
 
-`icp-research` (from comms-skills) creates `.agents/product-context.md`, consumed by 12+ skills across all stacks.
+`icp-research` (from marketing-skills) creates `.agents/product-context.md`, consumed by 12+ skills across all stacks.
 
 ## Cross-Stack Workflow
 
-All strategy skills can read `.agents/product-context.md`, created by `icp-research` from [comms-skills](https://github.com/hungv47/comms-skills).
+All strategy skills can read `.agents/product-context.md`, created by `icp-research` from [marketing-skills](https://github.com/hungv47/marketing-skills).
 
 ## Usage
 
