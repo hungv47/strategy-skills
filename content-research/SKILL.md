@@ -179,9 +179,9 @@ Check for upstream artifacts in this priority order:
 
 1. **`.agents/product-context.md`** — Product category, differentiator, target audience (created by `icp-research`)
 2. **`.agents/mkt/icp-research.md`** — Full persona profiles, VoC data, audience habitats
-3. **`.agents/mkt/imc-plan.md`** — Channel strategy, messaging pillars, angles
+3. **`.agents/mkt/imc-plan.md`** *(optional bonus — not upstream)* — If it already exists from a prior run, use channel strategy to focus research on relevant platforms. Content-research is typically run before imc-plan, so this will often be null.
 
-If none exist: interview for the minimum viable context:
+If none of the required artifacts (1-2) exist: interview for the minimum viable context:
 1. **What's the product/niche?** — Category, differentiator, and who it's for
 2. **Who are the competitors?** — At least 2-3 names or domains. If unknown, the competitive-content-agent and ad-intel-agent will discover them.
 3. **Which platforms matter?** — Where does the audience spend time? If unknown, research all major platforms.
@@ -211,7 +211,7 @@ pre-writing = {
   goal: [awareness / leads / sales / engagement],
   product_context: [from product-context.md or interview],
   icp_data: [from icp-research.md or null],
-  imc_plan: [from imc-plan.md or null]
+  existing_channels: [from imc-plan.md if it exists, or null — optional bonus context]
 }
 ```
 
