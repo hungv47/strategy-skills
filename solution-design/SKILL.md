@@ -2,6 +2,7 @@
 name: solution-design
 description: "Brainstorms and prioritizes strategic solutions when the problem or goal is already clear — generates options, scores trade-offs, and recommends a path forward. Produces `.agents/solution-design.md`. Not for diagnosing what the problem is (use problem-analysis) or engineering task lists (use task-breakdown). For setting numeric targets after prioritizing, see funnel-planner. For technical architecture of chosen initiatives, see system-architecture."
 argument-hint: "[problem or goal to solve]"
+allowed-tools: Read Grep Glob Bash WebSearch WebFetch
 license: MIT
 metadata:
   author: hungv47

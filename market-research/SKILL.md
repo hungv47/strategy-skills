@@ -2,6 +2,7 @@
 name: market-research
 description: "Analyzes market landscapes, competitive dynamics, TAM/SAM/SOM sizing, and whitespace opportunities for a product or category. Produces `.agents/market-research.md`. Not for building customer personas (use icp-research) or planning marketing campaigns (use imc-plan). For diagnosing a specific business problem, see problem-analysis. For prioritizing what to build from market data, see solution-design."
 argument-hint: "[market or product category]"
+allowed-tools: Read Grep Glob Bash WebSearch WebFetch
 license: MIT
 metadata:
   author: hungv47
