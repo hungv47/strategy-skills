@@ -21,11 +21,10 @@ routing:
     - content-gaps
   position: pipeline
   produces:
-    - content-research.md
+    - mkt/content-research.md
   consumes:
     - product-context.md
-    - icp-research.md
-    - imc-plan.md
+    - mkt/icp-research.md
   requires: []
   defers-to:
     - skill: market-research
@@ -36,8 +35,7 @@ routing:
       when: "ready to write the content — research is done"
     - skill: seo
       when: "need technical SEO audit of existing pages, not pre-creation content gaps"
-  parallel-with:
-    - imc-plan
+  parallel-with: []
   interactive: false
   estimated-complexity: heavy
 ---
