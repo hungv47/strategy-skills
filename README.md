@@ -1,6 +1,6 @@
 # Research Skills
 
-Structured frameworks for audience research, market analysis, problem diagnosis, solution design, target setting, and experimentation.
+Structured frameworks for audience research, market analysis, content intelligence, problem diagnosis, solution design, target setting, and experimentation. 7 skills.
 
 ## Install
 
@@ -106,6 +106,21 @@ Models business funnels backward from revenue goals to required traffic, convers
 **Not for:** mapping activities to existing KPIs (use `attribution`) or testing specific variants (use `experiment`)
 
 **Produces:** `.agents/targets.md`
+
+---
+
+### `content-research` — research what content to create
+
+Analyzes competitor ads, audience communities, trending topics, and top-performing content across platforms to inform what to write before drafting anything.
+
+**Use when:**
+- You're planning content and need data on what's actually working in your category
+- You want competitor ad intelligence, audience listening, and trend detection in one pass
+- You need a content brief grounded in evidence, not guesses
+
+**Not for:** drafting the content itself (use `content-create`) or writing headlines (use `copywriting`)
+
+**Produces:** `.agents/mkt/content-research.md`
 
 ---
 
