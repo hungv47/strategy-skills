@@ -9,6 +9,27 @@ metadata:
   version: "2.0.0"
   budget: deep
   estimated-cost: "$1-3"
+promptSignals:
+  phrases:
+    - "what should we build"
+    - "prioritize initiatives"
+    - "ice score"
+    - "which solution"
+    - "strategic options"
+    - "rank the options"
+  allOf:
+    - [solution, prioritize]
+    - [initiative, rank]
+  anyOf:
+    - "prioritize"
+    - "ice"
+    - "initiative"
+    - "solution"
+    - "trade-off"
+  noneOf:
+    - "market research"
+    - "buyer persona"
+  minScore: 6
 routing:
   intent-tags:
     - solution-design

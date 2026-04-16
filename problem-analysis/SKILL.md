@@ -9,6 +9,27 @@ metadata:
   version: "2.0.0"
   budget: deep
   estimated-cost: "$1-3"
+promptSignals:
+  phrases:
+    - "root cause"
+    - "why is"
+    - "what went wrong"
+    - "metric decline"
+    - "diagnose the problem"
+    - "what is causing"
+  allOf:
+    - [problem, diagnosis]
+    - [root, cause]
+  anyOf:
+    - "hypothesis"
+    - "logic tree"
+    - "metric"
+    - "decline"
+    - "diagnose"
+  noneOf:
+    - "market size"
+    - "competitor analysis"
+  minScore: 6
 routing:
   intent-tags:
     - problem-diagnosis

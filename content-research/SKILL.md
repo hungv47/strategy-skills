@@ -9,6 +9,32 @@ metadata:
   version: "1.0.0"
   budget: deep
   estimated-cost: "$1-3"
+promptSignals:
+  phrases:
+    - "what content should"
+    - "competitor ads"
+    - "trending content"
+    - "content gaps"
+    - "ad library"
+    - "viral content"
+    - "what are they posting"
+    - "what are competitors posting"
+    - "what content are"
+  allOf:
+    - [content, research]
+    - [competitor, content]
+  anyOf:
+    - "swipe file"
+    - "trend"
+    - "ad research"
+    - "content intelligence"
+    - "viral"
+    - "competitor"
+  noneOf:
+    - "write content"
+    - "create a post"
+    - "draft an email"
+  minScore: 6
 routing:
   intent-tags:
     - content-research

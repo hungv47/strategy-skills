@@ -9,6 +9,29 @@ metadata:
   version: "3.0.0"
   budget: deep
   estimated-cost: "$1-3"
+promptSignals:
+  phrases:
+    - "customer profile"
+    - "buyer persona"
+    - "target audience"
+    - "who is my customer"
+    - "ideal customer"
+    - "customer segment"
+  allOf:
+    - [audience, research]
+    - [customer, segment]
+  anyOf:
+    - "persona"
+    - "demographic"
+    - "psychographic"
+    - "jobs-to-be-done"
+    - "jtbd"
+    - "voc"
+  noneOf:
+    - "competitor analysis"
+    - "market size"
+    - "tam"
+  minScore: 6
 routing:
   intent-tags:
     - audience-research

@@ -9,6 +9,27 @@ metadata:
   version: "2.0.0"
   budget: deep
   estimated-cost: "$1-3"
+promptSignals:
+  phrases:
+    - "market research"
+    - "competitive analysis"
+    - "market size"
+    - "tam sam som"
+    - "competitor analysis"
+    - "market landscape"
+  allOf:
+    - [market, landscape]
+    - [competitive, dynamics]
+  anyOf:
+    - "competitor"
+    - "market"
+    - "whitespace"
+    - "sizing"
+    - "tam"
+  noneOf:
+    - "customer persona"
+    - "buyer persona"
+  minScore: 6
 routing:
   intent-tags:
     - market-research

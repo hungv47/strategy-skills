@@ -9,6 +9,27 @@ metadata:
   version: "2.0.0"
   budget: standard
   estimated-cost: "$0.15-0.40"
+promptSignals:
+  phrases:
+    - "a/b test"
+    - "experiment design"
+    - "sample size"
+    - "hypothesis test"
+    - "run an experiment"
+    - "validate this"
+  allOf:
+    - [experiment, design]
+    - [test, hypothesis]
+  anyOf:
+    - "experiment"
+    - "ab test"
+    - "sample"
+    - "hypothesis"
+    - "validate"
+  noneOf:
+    - "market research"
+    - "competitor"
+  minScore: 6
 routing:
   intent-tags:
     - experiment-design

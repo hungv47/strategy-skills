@@ -9,6 +9,28 @@ metadata:
   version: "4.0.0"
   budget: deep
   estimated-cost: "$1-3"
+promptSignals:
+  phrases:
+    - "funnel model"
+    - "unit economics"
+    - "growth targets"
+    - "ltv cac"
+    - "revenue target"
+    - "how much traffic do we need"
+  allOf:
+    - [funnel, model]
+    - [growth, target]
+  anyOf:
+    - "funnel"
+    - "ltv"
+    - "cac"
+    - "conversion rate"
+    - "revenue"
+    - "traffic"
+  noneOf:
+    - "market size"
+    - "competitor"
+  minScore: 6
 routing:
   intent-tags:
     - funnel-modeling
