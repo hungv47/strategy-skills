@@ -182,7 +182,7 @@ After both agents return:
 
 ### Step 1: hypothesis-agent
 - **Input:** Merged L1 output (tree + external factors)
-- **References:** `references/hypothesis-guide.md`, `references/logic-tree-examples.md`
+- **References:** `../shared/hypothesis-framework.md` (use Framing A — Diagnostic), `references/logic-tree-examples.md`
 - **Expected output:** If/Then/Because hypotheses for every leaf, ranked by testability (speed x impact)
 
 ### Step 2: data-mapper-agent
@@ -475,4 +475,4 @@ No external factors confirmed — proceed with internal analysis.
 
 - [references/watanabe-framework.md](references/watanabe-framework.md) — MECE principles and tree-building
 - [references/logic-tree-examples.md](references/logic-tree-examples.md) — 4 worked examples (SaaS churn, e-commerce, content ROI, B2B pipeline)
-- [references/hypothesis-guide.md](references/hypothesis-guide.md) — If/Then/Because templates by problem type
+- [../shared/hypothesis-framework.md](../shared/hypothesis-framework.md) — If/Then/Because structure and templates by problem type (use Framing A — Diagnostic)

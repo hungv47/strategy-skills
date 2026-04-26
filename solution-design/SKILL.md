@@ -174,7 +174,7 @@ Dispatch **research-agent**.
 
 ### research-agent
 - **Input:** Problem statement, root cause from problem-analysis.md, gap percentages, constraints, prior attempts
-- **References:** `references/hypothesis-framework.md`, `references/initiative-types.md`
+- **References:** `../shared/hypothesis-framework.md` (use Framing B — Predictive), `references/initiative-types.md`
 - **Expected output:** Validated root cause, 3-6 case studies with quantified results, unconventional tactic scan, constraint summary
 
 ---
@@ -185,7 +185,7 @@ After research-agent returns, dispatch **initiative-generator-agent** and **unco
 
 ### initiative-generator-agent
 - **Input:** Research-agent output (case studies, validated root cause, constraints)
-- **References:** `references/hypothesis-framework.md`, `references/initiative-types.md`, `references/initiative-planning.md`, `references/churn-playbook.md` (if root cause is churn)
+- **References:** `../shared/hypothesis-framework.md` (use Framing B — Predictive), `references/initiative-types.md`, `references/initiative-planning.md`, `references/churn-playbook.md` (if root cause is churn)
 - **Expected output:** 5-10 initiatives with hypotheses, mechanics, effort sizing, anti-generic checks
 
 ### unconventional-agent
@@ -446,7 +446,7 @@ Run `funnel-planner` to set targets for Restore Paid Targeting and Restore Socia
 
 ## References
 
-- [references/hypothesis-framework.md](references/hypothesis-framework.md) — If/Then/Because templates
+- [../shared/hypothesis-framework.md](../shared/hypothesis-framework.md) — If/Then/Because structure and templates by initiative type (use Framing B — Predictive)
 - [references/initiative-types.md](references/initiative-types.md) — Hero vs Support classification
 - [references/ice-scoring-rubric.md](references/ice-scoring-rubric.md) — Detailed scoring calibration with scored examples
 - [references/initiative-planning.md](references/initiative-planning.md) — Detailed execution planning for complex initiatives
